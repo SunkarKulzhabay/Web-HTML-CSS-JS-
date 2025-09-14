@@ -6,13 +6,45 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/submit" method="post">
-        <label for="name">Name</label>
-        <input type="text">
-        <label for="email">Email</label>
-        <input type="email">
-        <label for="password">password</label>
-        <input type="password">
+    <form action="/submit" method="post"></form>
+    <fieldset>
+
+        <!-- for чтобы связать с формой с помощью id, type тип формы, name название данных типа переменная для сервера
+         rows="4" cols="50" количество строк и символов в строке, value значение при выборе в select,
+         action адрес (URL), куда отправляются данные, method способ отправки делиться на несколько видов как POST, GET наверно и другие виды как
+         DELETE итд-->
+
+        <!-- fieldset предназначен для группирования элементов формы. Так удобно делить 
+         форму например формы для данных или формы для выборки итд -->
+        <legend>Напишите свои данные</legend>
+        <!-- legend заголовок для <fieldset> -->
+            <label for="name">Name</label>
+            <!-- label это заголовок форм -->
+            <input id="name" type="text">
+            <!-- input это форма для ввода одной строкой -->
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <label for="password">password</label>
+            <input id="password" type="password">
+            <label for="comment">comment</label>
+            <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+            <!-- textarea такой же как input только можем выбирать количество строк и символов -->
+    </fieldset>
+    </form>
+    <form action="/select"></form>
+    <fieldset>
+        <legend>Выберите страну</legend>
+            <label for="country">Country:</label>
+            <button type="submit">Submit</button>
+            <select name="country" id="country" required>
+                <!-- select выборка -->
+                <option value="Россия">Россия</option>
+                <!-- option варианты выбора -->
+                <option value="США">США</option>
+                <option value="Канада">Канада</option>
+            </select>
+            <button type="reset">Reset</button>
+    </fieldset>
     </form>
 </body>
 </html>
