@@ -1,0 +1,45 @@
+H1{
+    color: blue;
+}
+p{
+    font-size: 16px;
+}
+#f{
+    font-size: 10px;
+}
+.a{
+    font-size: 8px;
+}
+#cent{
+    text-align: center;
+}
+.B{
+    font-weight: bold;
+}
+div{
+    background-color: cornflowerblue;
+    padding: auto;
+    margin: auto;
+    border: 15px;
+    height: 600px;
+    width: 400px;
+}
+.l{
+    position: absolute; left: 0;
+    background-image: url(OIP\ \(1\).webp);
+}
+.c{
+    position: absolute; left: 0; right: 0;
+    background-image: url(OIP\ \(1\).webp);
+}
+.r{
+    position: absolute; right: 0;
+    background-image: url(OIP\ \(1\).webp);
+}
+.o {
+      width: 200px;
+      height: 100px;
+      border: 2px solid red;
+      overflow: scroll;
+      margin: 10px;
+    }
