@@ -7,3 +7,11 @@ p{
 #red{
     color: red;
 }
+#yellow{
+    color: yellow;
+}
+.black{
+    color: black;
+}
+
+/* id перекрывает class, class перекрывает тег */
