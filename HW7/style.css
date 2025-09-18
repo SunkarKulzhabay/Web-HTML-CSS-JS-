@@ -1,39 +1,57 @@
 H1{
     color: blue;
+    /* Это тэг который перекрашивает Заголовок в синий */
 }
 p{
     font-size: 16px;
 }
+/* тэг который задает размер слов 16 пикселей */
 #f{
     font-size: 10px;
 }
+/* также задает размер но это уже id он главнее тега и класса*/
 .a{
     font-size: 8px;
 }
+/* также только это уже класс */
 #cent{
     text-align: center;
 }
+/* выравнивает текст по центру */
 .B{
     font-weight: bold;
 }
+/* делает текст жирной */
 div{
     background-color: cornflowerblue;
+    /* фон синий */
     padding: auto;
+    /* внутерний отступ auto используется в основном с маргин чтобы центрировать по горизонтали */
     margin: auto;
+    /* внешний отступ */
     border: 15px;
+    /* границы */
     height: 600px;
+    /* высота */
     width: 400px;
+    /* ширина */
 }
+
 .l{
     position: absolute; left: 0;
+    /* элемент больше влияет на соседние элементы и его положение задается относительно первого родителя
+     с position: relative или самого сайта left: 0 укзывает что элемент должен быть прижат к левой границе*/
     background-image: url(OIP\ \(1\).webp);
+    /* фото на фон */
 }
 .c{
     position: absolute; left: 0; right: 0;
+    /* также как первый только по центру */
     background-image: url(OIP\ \(1\).webp);
 }
 .r{
     position: absolute; right: 0;
+    /* правая част сайта */
     background-image: url(OIP\ \(1\).webp);
 }
 .o {
@@ -41,5 +59,8 @@ div{
       height: 100px;
       border: 2px solid red;
       overflow: scroll;
+      /* если не помещяется то делаем скрол */
       margin: 10px;
     }
+
+
