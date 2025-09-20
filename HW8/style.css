@@ -39,3 +39,9 @@
     /* тут в дюльмах */
     height: 1in;
 }
+.div4{
+    width: 2rem;
+    height: 3rem;
+    background-color: yellow;
+    /* 1rem = 16px если html { font-size: 16px; }, 189px ÷ 16px = 11.81rem (≈ 11.8rem) */
+}
