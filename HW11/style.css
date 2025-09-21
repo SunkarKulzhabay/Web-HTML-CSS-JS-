@@ -1,0 +1,38 @@
+.button:hover{
+    background-color: blueviolet;
+}
+/* hover - при наведении */
+.button:active{
+    background-color: rgb(226, 43, 92);
+}
+/* active - когда включааешь типа нажимаешь */
+.input:focus{
+    background-color:violet
+}
+/* focus - при клике короче фокусируюсь на нем */
+.child:first-child{
+    color: blueviolet;
+}
+/* first-child - первый ребенок родительского элемента */
+.child:last-child{
+    color: tomato;
+}
+/* last-child - последний элемелент родительского элемента */
+.link:hover{
+    color: tomato;
+}
+.child1:nth-child(odd){
+    background-color: red;
+}
+/* nth-child(odd) меняет стил детей нечетных в списке есть такой же только для четных (even) */
+
+.container p:first-child:hover {
+      color: white;
+      background: blueviolet;
+}
+/* комбо */
+
+.container input:last-child:focus {
+    border: 3px solid red;
+    background: lightyellow;
+}
