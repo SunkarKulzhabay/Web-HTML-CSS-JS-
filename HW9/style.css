@@ -1,0 +1,26 @@
+/* <!-- задание 2 --> */
+.task2_1{
+    display: inline
+    /* блочный в строчный превращает */
+}
+.task2_2{
+    display: block
+    /* строчный в блочный превращает */
+}
+
+.container{
+    display: block;
+    background-color: #22c2e2;
+    margin: 10px auto;
+    padding: 5px;
+    border: 5px solid rgb(0, 9, 9);
+}
+.container p,
+.container img,
+.container a {
+    display: block; 
+    margin-bottom: 10px;  
+    text-align: center;
+    border: 2px solid rgb(0, 9, 9);
+}
+
