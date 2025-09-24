@@ -1,0 +1,51 @@
+.static{
+    position: static;
+    top: 80px;
+    left: 300px;
+}
+/* в описании написано потому что он обычный.
+(являются обычными элементами потока, они располагаются
+ в соответствии с нормальным потоком документа) */
+
+.relative{
+    position: relative;
+    top: 10px;
+    left: 300px;
+}
+/* можно двигать куда хочешь но это визуально если посмотреть на -- которые я поставил там пусто. */
+.absolute1{
+    position: relative;
+    height: 75px;
+    width: 75px;
+    top: 20px;
+    left: 300px;
+}
+/* Родитель ) */
+.absolute2{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top: 30px;
+    left: 30px;
+}
+/* Двигается относительно родителя. То есть если родитель в лево на 20пх то и сын/дочь в лево 20пх.*/
+.fixed{
+    background-color: violet;
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    bottom: 50px;
+    right: 75px;
+}
+/* фиксирует его в определенном месте на экране */
+.sticky{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(85, 22, 85);
+    position: sticky;
+    top: 0;
+}
+/* Пока родительский блок не закончится, он будет липнуть. 
+Когда родитель заканчивается липкость пропадает, и элемент остаётся внутри родителя. */
+
+

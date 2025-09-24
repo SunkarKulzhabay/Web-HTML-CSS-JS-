@@ -30,7 +30,7 @@
       color: white;
       background: blueviolet;
 }
-/* комбо */
+/* комбо         */
 
 .container input:last-child:focus {
     border: 3px solid red;
