@@ -1,0 +1,197 @@
+/* Task 1 */
+.block1 {
+    display: block;
+    background: lightblue;
+    margin: 5px;
+    padding: 10px;
+}
+.inline1 {
+    display: inline;
+    background: lightgreen;
+    margin: 5px;
+    padding: 10px;
+}
+.flex1 {
+    display: flex;
+    background: lightcoral;
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+.flex1 span {
+    background: yellow;
+    padding: 5px;
+}
+/* Task 2 */
+.flex2 {
+    display: flex; 
+    /* когда включаешь дети преврашаются в inline но ими можно управлять в отличии от инлайн*/
+    flex-direction: column; 
+    /* TASK3, делает колонну или строку */
+    /* flex-wrap: wrap; */
+    /* то что не влезла идет на след колонку или строку внутри родю */
+    background: lightcoral;
+    margin: 5px;
+    padding: 10px; 
+    width: 200px;
+    height: 200px;
+}
+.flex3 {
+    display: flex; 
+    flex-direction: column; 
+    background: rgb(128, 145, 240);
+    margin: 5px;
+    padding: 10px; 
+    width: 300px;
+    height: 450px;
+}
+.flex3R1, .flex3R2, .flex3R3{
+    display: flex; 
+    flex-direction: column; 
+    background: rgba(255,255,255,0.6);
+    padding: 10px; 
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+    border: 1px solid #333;
+}
+.flex3R1{
+    display: flex; 
+    justify-content: center;     
+    /* горизонтальное выравнивание */
+    align-items: center; 
+    /* justify-content управляет главной осью, то есть высотой (вертикалью)
+    align-items управляет поперечной осью, то есть шириной (горизонталью) */
+}
+.flex3R2{
+    /* align-items: baseline;     */
+    /* браузер выравнивает все flex-элементы так, чтобы текст внутри них стоял на одной линии. Даже если у них разная высота */
+    /* align-items: center;  */
+    /* выравнивание по оси */
+    align-items: end;
+    /* будет на краю поперечной оси конце */
+    /*align-items: start;*/
+    /* будет на краю поперечной оси начале */
+    /* align-items: stretch; */
+    /* выровнены по линии текста */
+    /* вертикальное выравнивание элементов в строке */
+}
+.flex3R3{
+    align-content: center;     
+    flex-wrap: wrap;  
+    /* выравнивание всех строк по вертикали */
+}
+
+
+.container {
+    display: flex;
+    border: 2px solid #333;
+    width: 600px;
+    height: 150px;
+    padding: 10px;
+    gap: 10px;                     
+}
+.item1 {
+    flex-grow: 1;      /* насколько элемент растёт */
+    flex-shrink: 1;    /* насколько элемент сжимается */
+    flex-basis: 100px; /* базовый размер */
+    background: lightcoral;
+}
+.item2 {
+    flex: 2 1 150px;               /* растёт в 2 раза быстрее первого */
+    background: lightgreen;
+}
+.item3 {
+    flex: 1 2 200px;               /* сжимается быстрее остальных */
+    background: lightsalmon;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.container1 {
+    display: flex;                 
+    border: 2px solid #333;
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    gap: 10px;                     
+}
+.ite1 {
+    flex-grow: 0;      /* не растет  */
+    flex-shrink: 1;    /* может сжиматься */
+    flex-basis: 50%; /*базовая ширина 50%*/
+    background: lightcoral;
+}
+.ite2 {
+    flex: 1 1 auto; /* растёт автоматически, сжимается при необходимости */
+    background: lightgreen;
+}
+.ite3 {
+    flex: 0 0 100px;               /* фиксированная ширина 100px */
+    background: lightsalmon;
+}
+.itm {
+    display: flex;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    width: 900px;
+    height: 150px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    background-color: bisque;
+    justify-content:space-evenly;
+}
+.men{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.men1{
+    background-color: aliceblue;
+}
+.men2{
+    background-color: antiquewhite;
+}
+.men3{
+    background-color: aqua;
+}
+.picture{
+    width: 800px;
+    height: 250px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.pict1{
+    flex: 1 1 100px; 
+    /* почему то он сжимается сильнее чем номер 3)*/
+}
+.pict2{
+    flex: 2 1 500px;    
+}
+.pict3{
+    flex: 1 3 100px;  
+      /* почему то не сжимается  */
+}
+
