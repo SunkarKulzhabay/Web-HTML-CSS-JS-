@@ -16,7 +16,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 65px;
     width: 1440px;
 }
 .Logoipsum-left,.Logoipsum-right{
@@ -31,7 +31,8 @@ body{
     display: flex;
     align-items: center;
     border: 1px solid #EEF0F3;
-    padding: 12px 12px 14px 12px;
+    margin: 12px 12px 14px 12px;
+    padding-left: 12px;
     border-radius: 10px;
     gap: 10px;
     width: 352px;
@@ -154,8 +155,8 @@ p{
 }
 .headerLeft{
     display: flex;
-    text-align: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
 }
 .searchBox{
     width: 500px;
@@ -163,7 +164,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: #111928; */
+    background-color: #111928;
     border-radius: 10px;
     border: 1px solid #D6D8DE;
     padding-left: 20px;
