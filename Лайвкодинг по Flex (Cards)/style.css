@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.card{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+    height: 545px;
+    width: 1300px;
+}
+/* .card-block{
+} */
+.badge {
+    background-color: #191919;
+    color: #fff;
+    font-size: 18px;              
+    line-height: 27px;            
+    font-weight: 400;            
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;     
+}
+.episode{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17px;
+}
+.title{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+.subtitle{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    color: #FFFFFFB2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+.btn{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background-color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px 12px 20px;
+}
