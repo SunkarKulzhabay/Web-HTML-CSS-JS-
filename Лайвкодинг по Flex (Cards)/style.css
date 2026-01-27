@@ -1,7 +1,20 @@
 body{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 50px;
+    background-color: #2E363E;
+}
+.Second{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    justify-content: center;
+    height: 582px;
+    gap: 150px;
+}
+.first{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 .card{
     background-color: #000;
@@ -10,8 +23,11 @@ body{
     gap: 53px;
     padding: 40px;
     border-radius: 32px;
-    height: 545px;
-    width: 1300px;
+    margin-bottom: 221px;
+    width: fit-content;
+    height: fit-content;
+    /* height: 545px;
+    width: 1300px; */
 }
 /* .card-block{
 } */
@@ -62,3 +78,157 @@ body{
     border-radius: 6px;
     padding: 12px 15px 12px 20px;
 }
+/* ------------------------------------------------------------------------- */
+.pictures{
+    padding: 20px 20px 30px 20px;
+    width: fit-content;
+    height: fit-content;
+    /* width: 290px;
+    height: 514px; */
+    background-color: #E1EDE6;    
+}
+.author{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #86928B;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.name{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #2C2D35;
+    margin-bottom: 10px;
+}
+.material{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #2C2D35;
+    margin-bottom: 30px;
+}
+.price{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #598D66;
+    margin-bottom: 10px;
+}
+.btn1{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #598D66;
+    background-color: transparent;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #598D66;
+}
+/* ------------------------------------------------------------- */
+
+.cake{
+    border: 1px solid #F2F6FA;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+}
+.pad{
+    padding: 50px 89px 50px 44px;
+}
+.nm{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+    margin-bottom: 12px;
+}
+.def{
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2E363E;
+    margin-bottom: 24px;
+}
+.cena{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #434B53;
+    margin-bottom: 14px;
+}
+.btn2{
+    height: 68px;
+    width: 163px;
+    padding: 20px 40px 20px 40px;
+    background-color: #FED84C;
+    color: #2E363E;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    text-align: center;
+}
+
+/* ------------------------------------------------------------------- */
+.resume{
+    background-color: #0C0B15;
+    padding: 21.7px 23px 53px 26.5px;
+
+}
+.photo{
+    width: 60px;
+    height: 60px;
+    background-color: #06152B;
+    border: none;
+    border-radius: 50%;
+    padding-left: 0.71px;
+}
+.dot{
+    margin-top: 1.3px;
+    width: 28px;
+    height: 6px;
+}
+.head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    justify-content: flex-start;
+    gap: 191.79px;
+    margin-bottom: 18.3px;
+}
+.about{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 24.37px;
+}
+.fullName{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #809FB8;
+    margin-bottom: 26.63px;
+}
+.lor{
+    width: 260px;
+    height: 147px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #809FB8;
+    padding-left: 1.22px;
+    /* display: flex;
+    text-align: left; */
+}
+
