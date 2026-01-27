@@ -4,6 +4,12 @@ body{
     margin-top: 50px;
     background-color: #2E363E;
 }
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./font/MyFont/ProximaNova-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
 .Second{
     display: flex;
     align-items: flex-end;
@@ -24,10 +30,10 @@ body{
     padding: 40px;
     border-radius: 32px;
     margin-bottom: 221px;
-    width: fit-content;
-    height: fit-content;
-    /* height: 545px;
-    width: 1300px; */
+    /* width: fit-content;
+    height: fit-content; */
+    height: 545px;
+    width: 1300px;
 }
 /* .card-block{
 } */
@@ -49,7 +55,8 @@ body{
     font-size: 17px;
     font-weight: 400;
     line-height: 27px;
-    margin-bottom: 17px;
+    margin-bottom: 17.56px;
+
 }
 .title{
     font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
@@ -58,6 +65,8 @@ body{
     line-height: 70.4px;
     color: #fff;
     margin-bottom: 28px;
+    width: 701px;
+    height: 141px;
 }
 .subtitle{
     font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
@@ -183,6 +192,7 @@ body{
 .resume{
     background-color: #0C0B15;
     padding: 21.7px 23px 53px 26.5px;
+    font-family: 'Proxima Nova', Arial, sans-serif;
 
 }
 .photo{
@@ -201,7 +211,6 @@ body{
 .head{
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
     justify-content: flex-start;
     gap: 191.79px;
     margin-bottom: 18.3px;
