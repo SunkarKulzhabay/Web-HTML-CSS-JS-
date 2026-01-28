@@ -145,13 +145,13 @@ body{
 /* ------------------------------------------------------------- */
 
 .cake{
-    border: 1px solid #F2F6FA;
     background-color: #FFFFFF;
     border-radius: 10px;
     width: fit-content;
     height: fit-content;
 }
 .pad{
+    border: 1px solid #F2F6FA;
     padding: 50px 89px 50px 44px;
 }
 .nm{
