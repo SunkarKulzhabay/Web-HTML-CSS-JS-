@@ -1,0 +1,386 @@
+body{
+    background-color: #191919;
+    margin: 0;
+}
+header{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 26px 50px 26px 50px; */
+    width: 100%;
+    height: 119px;
+    gap: 777px;
+}
+.headName{
+    height: 33px;
+    width: 160px;
+    margin: 26px 0 26px 50px;
+    
+}
+
+.headNav {
+    display: flex;
+    gap: 40px;
+    margin: 26px 50px 26px 0;
+}
+
+.headNav a{
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+
+}
+.headNav a.active{
+    color: #118DA8;
+}
+/* -------------------------------------------------------------- */
+.review{
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    height: 913px;
+
+}
+.reviewPhoto{
+
+    position: relative;
+}
+.reviewPhoto1{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    border-radius: 25px;
+    
+}
+.reviewPhoto2{
+    position: absolute;
+    top: 14px;
+    left: 44px;
+}
+.reviewText1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+}
+/* .reviewText{
+} */
+.layout{
+    display: flex;
+    gap: 20px;
+}
+.reviewText2{
+    width: 160px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+.reviewText21{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    display: inline;
+}
+.reviewText3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+    color: #FFFFFF;
+    
+}
+.reviewTextLogo{
+    margin: 74px 241px 22px 0px;
+}
+.reviewTextLogo1{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.reviewTextLogo2{
+    gap: 17px;
+    width: 245px;
+    height: 32px;
+}
+.Episode{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.EpisodesTitles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 93px 70px 66.44px 70px;
+}
+.EpisodesTitle{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+}
+.EpisodesTitleBTN{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    background-color: #118DA8;
+    width: 178px;
+    height: 51px;
+}
+.card{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+    margin-bottom: 60px;
+    height: fit-content;
+    width: 1300px;
+}
+.badge {
+    background-color: #191919;
+    color: #fff;
+    font-size: 18px;              
+    line-height: 27px;            
+    font-weight: 400;            
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    width: fit-content;
+    padding: 0 16px;
+    border-radius: 6px;
+    margin-bottom: 48.44px;     
+}
+.episode{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    color: #118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+.title{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #fff;
+    margin-bottom: 28px;
+    letter-spacing: 2.56px;
+}
+.subtitle{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    color: #FFFFFFB2;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin-bottom: 18px;
+}
+.btn{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    background-color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 15px 12px 20px;
+}
+.klava{
+    width: 701px;
+    height: 141px;
+}
+.klava1{
+    width: 757px;
+    height: 99px;
+}
+.micro{
+    width: 676px;
+    height: 141px;
+}
+.micro1{
+    width: 773px;
+    height: 66px;
+}
+.afro{
+    width: 611px;
+    height: 141px;
+    font-size: 57px;
+}
+.afro1{
+    width: 767px;
+    height: 66px;
+}
+/* ------------------------- */
+.Meet{
+    margin: 100px 70px 101px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.MeetLeft{
+    display: flex;
+    flex-direction: column;
+    margin-top: 147.72px;
+}
+.MeetRadius{
+    width: 112px;
+    height: 112px;
+    border-radius: 400px;
+    background-color: #118DA8;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strelca{
+    width: 71px;
+    height: 38px;
+}
+.MeetTitle{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #118DA8;
+}
+.MeetAuthor{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.MeetDef{
+    margin-bottom: 33px;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+    width: 556px;
+    height: 66px;
+}
+.MeetDef1{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+    width: 528px;
+    height: 66px;
+}
+/* -------------------------------------- */
+
+.Forms{
+    background-color: #000000;
+    width: 1300px;
+    height: 387px;
+    margin-inline: auto;
+    margin: 101px 70px 100px 70px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    /* position: relative; */
+    gap: 76px;
+}
+.FormsLeft{
+    width: 642px;
+    height: 330px;
+    position: relative;
+
+}
+.FormsLeftTitle{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #118DA8;
+    margin-top: 59.13px;
+    margin-left: 60px;
+    
+}
+.FormsLeftWords{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+    color: #FFFFFF;
+    margin-left: 60px;
+    width: 431px;
+    height: 159px;
+}
+.FormsRightFirst,.FormsRightSecond{
+    background-color: #191919;
+    width: 522px;
+    height: 82px;
+    border-radius: 6px;
+    border: 1px solid #191919;
+
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+}
+.FormsRightBTN{
+    width: 87px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: rgba(17, 141, 168, 1);
+
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.8px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+}
+.FormsRight{
+    padding-top: 59.87px;
+    display: flex;
+    flex-direction: column;
+    width: 522px;
+    height: 252px;
+}
+.pal{
+    position: absolute;
+    top: 0;
+    top: 322.12px;
+    left: -38px;
+}
