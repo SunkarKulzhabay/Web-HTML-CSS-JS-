@@ -113,6 +113,7 @@ header{
     margin-bottom: 16px;
 }
 .reviewTextLogo2{
+    display: flex;
     gap: 17px;
     width: 245px;
     height: 32px;
@@ -383,4 +384,102 @@ header{
     top: 0;
     top: 322.12px;
     left: -38px;
+}
+/* ------------------------------ */
+
+.Comments{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 70px 100.12px 70px;
+    gap: 16px;
+    width: 1440px;
+    height: 901px;
+    box-sizing: border-box;
+}
+.Comment{
+    width: 422px;
+    height: 321px;
+    border-radius: 32px;
+    background-color: #000000;
+    margin: 0;    
+}
+.CommentStars{
+    display: flex;
+    align-content: flex-start;
+    margin-top: 54px;
+    margin-bottom: 21px;   
+    margin-left: 50px;
+    gap: 5px;
+}
+.CommentTitle{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+    margin-left: 50px;
+    margin-right: 56px;
+}
+.CommentTitle1{
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0;
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 50px;
+}
+/* ------------------------------------------------------------------------------- */
+.foot1{
+    width: 447.140625px;
+    height: 222px;
+}
+.foot2{
+    gap: 16px;
+    display: flex;
+}
+.foot2main1{
+    display: flex;
+    width: 178.84375px;
+    height: 222px;
+}
+.foot2main2{
+    width: 178.84375px;
+    height: 222px;
+}
+
+footer{
+    padding: 100px 70px 0 70px;
+    width: 1440px;
+    height: 438px;
+    display: flex;
+    gap: 16px;
+}
+.foot1Titlesoc{
+    margin-top: 20px;
+    gap: 10px;
+    width: 447.140625px;
+    height: 27px;
+}
+.foot2main1 a, .foot2main2 a{
+    display: flex;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-decoration: none;
+    gap: 10px;
+
+}
+.foot3L{
+    display: flex;
+    width: 447.140625px;
+    gap: 17px;
+}
+.Hei{
+    font-size: 18px;
 }
