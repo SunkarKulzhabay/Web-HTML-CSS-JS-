@@ -1,0 +1,154 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 400px;
+  margin-top: 200px;
+}
+.task11 {
+  background-color: violet;
+  width: 100px;
+  height: 60px;
+  animation: task11 4s infinite linear;
+  margin-bottom: 50px;
+}
+.task12 {
+  background-color: yellowgreen;
+  width: 100px;
+  height: 60px;
+  animation: task12 4s infinite linear;
+  margin-bottom: 50px;
+}
+.task13 {
+  background-color: #a52a2a;
+  width: 100px;
+  height: 60px;
+  animation: task13 4s infinite linear;
+  margin-bottom: 50px;
+}
+.task14 {
+  background-color: turquoise;
+  width: 100px;
+  height: 60px;
+  animation: task14 4s infinite linear;
+  margin-bottom: 50px;
+}
+@keyframes task11 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes task12 {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes task13 {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes task14 {
+  0% {
+    transform: skewX(0deg);
+  }
+  50% {
+    transform: skewX(45deg);
+  }
+  100% {
+    transform: skewX(90deg);
+  }
+}
+/* ------------------------------------------------------------------------ */
+.task21 {
+  background-color: violet;
+  width: 100px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.task21:hover{
+  transition: 0.5s ease;
+  transform: rotate(90deg);
+}
+.task22 {
+  background-color: yellowgreen;
+  width: 100px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.task22:hover{
+  transition: 1s ease;
+  transform: scale(1.5);
+}
+.task23 {
+  background-color: #a52a2a;
+  width: 100px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.task23:hover{
+  transition: 1s ease;
+  transform: translateY(-30px);
+}
+.task24 {
+  background-color: turquoise;
+  width: 100px;
+  height: 60px;
+  margin-bottom: 50px;
+}
+.task24:hover{
+  transition: 1s ease;
+  transform: skewX(45deg);
+}
+/* ------------------------------------------------- */
+.task31 {
+  background-color: violet;
+  width: 100px;
+  height: 60px;
+  transform: rotate(90deg);
+  margin-bottom: 50px;
+}
+.task32 {
+  background-color: yellowgreen;
+  width: 100px;
+  height: 60px;
+  transform: scale(1.5);
+  margin-bottom: 50px;
+}
+.task33 {
+  background-color: #a52a2a;
+  width: 100px;
+  height: 60px;
+  transform: translateY(-30px);
+  margin-bottom: 50px;
+}
+.task34 {
+  background-color: turquoise;
+  width: 100px;
+  height: 60px;
+  transform: skewX(45deg);
+  margin-bottom: 50px;
+}
+
