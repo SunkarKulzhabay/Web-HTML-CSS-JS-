@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cakesHeader{
+    padding-bottom: 80px;
+}
+.cakesHeaderH{
+    font-weight: 500px;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    display: flex;
+    justify-content: center;
+    color: #2E363E;
+    margin-bottom: 14px;
+}
+.cakesHeaderP{
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 143%;
+    letter-spacing: 0%;
+    display: flex;
+    justify-content: center;
+    color: #2E363E;
+}
+.cakesPhoto{
+    display: grid;
+    gap: 9px;
+    grid-template-columns: repeat(3, 634px);
+    grid-template-rows: repeat(3, 444px);
+    text-align: center;
+    justify-content: center;
+
+}
