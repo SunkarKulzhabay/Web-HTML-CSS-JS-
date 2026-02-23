@@ -13,8 +13,7 @@
   display: grid;
   grid-template-columns: repeat(3, 380px);
   grid-template-rows: repeat(3, 582px);
-  text-align: center;
-  justify-content: center;
+
 }
 .Cake {
   width: 380px;
@@ -52,6 +51,7 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   margin-bottom: 24px;
+  width: 240px;
 }
 .CakePrice {
   font-weight: 500;
@@ -75,4 +75,5 @@
   height: 68px;
   border-radius: 8px;
   padding: 20px 40px 20px 40px;
+  border: none;
 }
