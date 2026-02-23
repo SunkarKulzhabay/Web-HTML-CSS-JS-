@@ -1,0 +1,78 @@
+.CakeCard {
+  /* width: 1920px;
+  height: 1926px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.CakeCards {
+  width: 1180px;
+  height: 1786px;
+  gap: 20px;
+  margin-top: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-template-rows: repeat(3, 582px);
+  text-align: center;
+  justify-content: center;
+}
+.Cake {
+  width: 380px;
+  height: 582px;
+  background-color: #c2c6d00f;
+}
+.CakeFooter {
+  margin: 50px 0px 0px 44px;
+}
+.CakeCardHeader {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #2e363e;
+  display: flex;
+  justify-content: center;
+}
+.CakeHeader {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143%;
+  letter-spacing: 0%;
+  color: #2e363e;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 12px;
+}
+.CakeParam {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #2e363e;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 24px;
+}
+.CakePrice {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 14px;
+}
+
+.CakeButton {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 152%;
+  color: #2e363e;
+  background-color: #fed84c;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  width: 163px;
+  height: 68px;
+  border-radius: 8px;
+  padding: 20px 40px 20px 40px;
+}
