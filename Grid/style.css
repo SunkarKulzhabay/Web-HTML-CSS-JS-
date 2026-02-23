@@ -25,11 +25,11 @@ body{
     color: #2E363E;
 }
 .cakesPhoto{
+    width: 1920px;
     display: grid;
     gap: 9px;
     grid-template-columns: repeat(3, 634px);
     grid-template-rows: repeat(3, 444px);
     text-align: center;
     justify-content: center;
-
 }
